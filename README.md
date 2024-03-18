@@ -13,3 +13,8 @@
 - Then the creation of AWS Elasticache Redis Cache
 
 ![aws-3](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/676b8d3a-bc7a-476d-8e79-de1f5cbd7f16)
+
+- The creation of a domain abdulhamid.com on amazon Route53,
+
+![aws-4](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/9cd2de89-9aee-4622-98e7-eb202f8a0778)
+
