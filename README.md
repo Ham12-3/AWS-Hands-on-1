@@ -18,3 +18,48 @@
 
 ![aws-4](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/9cd2de89-9aee-4622-98e7-eb202f8a0778)
 
+- Creation of an S3 Bucket
+
+  ![aws-5](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/51d727b4-6a4b-4af0-840a-24698a4007dc)
+
+- S3 bucket named myabdulbucket being created already
+
+  ![aws-6](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/e8be402b-e9e0-4735-a24c-cd0621aa445e)
+
+- Uploading a png file on my AWS S3 bucket
+
+![aws-7](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/e2db96bd-c074-4873-9119-0bc8364ec011)
+
+![aws-8](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/caaa4e22-ac53-43a8-b545-046ac661a210)
+
+
+Sample of an S3 Bucket policy
+```JSON
+{
+
+"id" : "Policy15672859245",
+"Version": "2012-10-17",
+"Statement": [
+
+{
+
+"Sid": "Stmt12674263965",
+"Action":[
+
+"s3: BetObject"
+],
+"Effect":"Allow",
+"Resource":"arn:aws:s3:::myabdulbucket",
+"Principal":"*"
+}
+]
+
+
+}
+
+
+
+```
+
+
+
