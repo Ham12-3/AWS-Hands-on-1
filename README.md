@@ -61,5 +61,13 @@ Sample of an S3 Bucket policy
 
 ```
 
+- Uploading a static website on AWS S3, index.html file
+
+![aws-9](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/bf9201f5-37aa-4d2d-b6fd-5a298fccdaea)
+![aws-10](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/76e928d1-e73e-4436-b5e3-480e043f163a)
+![aws-11](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/2a9d7375-7ab6-4f37-8948-dfcbeac46fd1)
+
+
+
 
 
