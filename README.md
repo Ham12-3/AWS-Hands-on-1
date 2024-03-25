@@ -189,3 +189,37 @@ Now our event notification has been created finally
 
 ![aws-20](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/274213c6-fa72-47e3-a645-248d0393671a)
 
+- Setting up an statice website hosting and then planning to work on CORS(Cross Origin Resource Sharing)
+
+![aws-21](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/40d2a591-cc5a-447b-84ca-7f2e2b6baa5e)
+
+- Got an error from setting the static website
+
+![aws-22](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/860e1401-d877-4808-9d62-0b3a740de37e)
+
+- Finally working now
+
+![aws-23](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/cdd792b4-0694-49c6-89d3-942d4893a97d)
+
+Due to the bucket policy I added to allow public access
+
+Here is the bucket policy:
+
+```JSON
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "*"
+            },
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::demo-encryption-mide/*"
+        }
+    ]
+}
+
+```
+
+
