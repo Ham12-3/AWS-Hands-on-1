@@ -107,6 +107,33 @@ Sample of an S3 Bucket policy
 
 ![aws-9](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/fc4ea461-504b-4697-a448-9813722ee911)
 
+- Getting started with the EC2 instance metadata Version 2 (V2)
+
+launching of eC2 instance for the instance metadata
+
+![aws-10](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/9d0da330-9fd6-4b19-a04d-6b506ecf32e3)
+
+- The first token code for the imdsV2 being put in our EC2 instance connect to get our token for the metadata
+
+![aws-11](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/c337a7da-37f2-4f6d-af3e-ab335d995fb5)
+
+- Here are the tokens to be used
+
+```shell
+TOKEN=`curl -X PUT "http://169.254.169.254/latest/api/token" -H "X-aws-ec2-metadata-token-ttl-seconds: 21600"`
+
+```
+
+```shell
+curl -H "X-aws-ec2-metadata-token: $TOKEN" http://169.254.169.254/latest/meta-data/
+```
+
+- Our token for imdsV2 getting our EC2 instance metadata works as expected
+
+
+![aws-12](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/958e741d-ab48-4c6f-b140-67dc8fbe168b)
+
+
 
 
 
