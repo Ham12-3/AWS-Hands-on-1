@@ -134,6 +134,50 @@ curl -H "X-aws-ec2-metadata-token: $TOKEN" http://169.254.169.254/latest/meta-da
 ![aws-12](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/958e741d-ab48-4c6f-b140-67dc8fbe168b)
 
 
+- Creation of an S3 Event from the property section in the S3 bucket you created
 
+
+![aws-13](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/bbf40865-44a3-4db2-9985-e9714702a3ac)
+
+- Creation of an event notification
+
+
+
+
+- Creation of queue for the event notification destination
+
+
+![aws-15](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/ebd7eeb7-4cfc-44c2-9315-15cb02d4008e)
+
+- Editing the SQS Queue policy to accept the event notification
+
+![aws-16](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/7833f3fe-2d8a-4bb5-a275-4d6bec4eae06)
+
+- Generating the policy for the amazon SQS Queue using the aws policy generator
+
+![aws-17](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/fad57e58-0104-4c36-9348-941ababe1f7f)
+
+Here is the policy in JSON
+
+```JSON
+{
+  "Id": "Policy1711364311955",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1711364309953",
+      "Action": [
+        "sqs:SendMessage"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:sqs:us-east-1:058264276076:demos3notification",
+      "Principal": "*"
+    }
+  ]
+}
+```
+Now our event notification has been created finally
+
+![aws-18](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/497b9e60-c836-48db-8d33-9b3fad1a6c5a)
 
 
