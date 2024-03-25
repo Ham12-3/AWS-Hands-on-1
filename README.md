@@ -74,7 +74,22 @@ Sample of an S3 Bucket policy
 
 ![aws-2](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/168e63cb-19fa-461b-adc9-3aa9c2d1e0cd)
 
+- S3 Bucket Replica being created, by first creating the bucket and its replica
 
 
+![aws-3](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/9a97e2ec-53d9-435b-bdff-2f80159ef30f)
 
+
+- Creation of a destination bucket replication rule
+
+![aws-4](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/568afb53-29c6-4423-a03e-bf1c5a39089e)
+
+
+- Batch Object Operations asking if we want to replicate exisiting objects
+![aws-5](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/185fcfe9-5f4a-4271-9703-d15348db6a8b)
+
+  
+- the replication rule created finally
+
+![aws-6](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/0aa30582-b8f7-473e-bcf6-9df13473368f)
 
