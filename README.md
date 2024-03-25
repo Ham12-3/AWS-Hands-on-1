@@ -180,4 +180,12 @@ Now our event notification has been created finally
 
 ![aws-18](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/497b9e60-c836-48db-8d33-9b3fad1a6c5a)
 
+- Working on the server side encryption settings on the objects in the S3 bucket
+
+![aws-19](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/54ec16d7-1d42-4ad1-a766-112630a5cd59)
+
+
+- Here is the final encryption being created finally
+
+![aws-20](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/274213c6-fa72-47e3-a645-248d0393671a)
 
