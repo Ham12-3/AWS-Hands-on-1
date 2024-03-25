@@ -229,6 +229,32 @@ Here is the bucket policy:
 ![aws-24](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/b8b22ff0-6138-4af3-aad2-156247453d47)
 
 
+- Then we have the CORS policy to allow the cross origin possible
+
+```JSON
+[
+    {
+        "AllowedHeaders": [
+            "Authorization"
+        ],
+        "AllowedMethods": [
+            "GET"
+        ],
+        "AllowedOrigins": [
+            "http://demo-encryption-mide.s3-website-us-east-1.amazonaws.com"
+        ],
+        "ExposeHeaders": [],
+        "MaxAgeSeconds": 3000
+    }
+]
+```
+
+- CORS origin worked finally
+
+
+![aws-25](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/fd18ea5c-ebc2-484b-af69-5faadca9d646)
+
+
 
 
 
