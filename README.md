@@ -255,6 +255,13 @@ Here is the bucket policy:
 ![aws-25](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/fd18ea5c-ebc2-484b-af69-5faadca9d646)
 
 
+- Getting the server side logging for the S3 bucket done
 
+
+![aws-26](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/4c21f5b2-e1d5-46c4-8473-b9a93de63fe6)
+
+- Making use of S3 presigned URL to share files and data for a specific period of time
+
+![aws-27](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/744f0b9f-5463-4fc6-8f65-141586941dc1)
 
 
