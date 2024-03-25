@@ -223,3 +223,12 @@ Here is the bucket policy:
 ```
 
 
+- Created another bucket to allow the CORS
+
+
+![aws-24](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/b8b22ff0-6138-4af3-aad2-156247453d47)
+
+
+
+
+
