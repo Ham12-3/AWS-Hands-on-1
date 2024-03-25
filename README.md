@@ -93,3 +93,20 @@ Sample of an S3 Bucket policy
 
 ![aws-6](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/0aa30582-b8f7-473e-bcf6-9df13473368f)
 
+
+- Setting of storage classes for the AWS S3 Bucket object from the properties tab
+
+
+![aws-7](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/0a5ff87b-0a6c-4a8c-aaa8-d0d3e6f76dd8)
+
+![aws-8](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/9d84473d-f8e9-44f4-9a83-10644dfe4d17)
+
+
+- Ading a lifecycle rule for the objects in the S3 Bucket
+
+
+![aws-9](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/fc4ea461-504b-4697-a448-9813722ee911)
+
+
+
+
