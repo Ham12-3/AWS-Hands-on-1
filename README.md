@@ -265,3 +265,38 @@ Here is the bucket policy:
 ![aws-27](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/744f0b9f-5463-4fc6-8f65-141586941dc1)
 
 
+- Creation of an S3 Bucket for cloudfront
+
+![aws-28](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/2f957c40-106a-4e99-92a6-de0a7913e3c6)
+
+
+- Creation of a Cloudfront distribution using our S3 bucket
+![aws-29](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/98a12e6a-4487-409c-a802-d09f226124c5)
+
+- The Cloudfront distribution has been successfully made and then the S3 policy has been updated:
+- Here is the S3 bucket policy
+```JSON
+{
+    "Version": "2008-10-17",
+    "Id": "PolicyForCloudFrontPrivateContent",
+    "Statement": [
+        {
+            "Sid": "AllowCloudFrontServicePrincipal",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "cloudfront.amazonaws.com"
+            },
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::demo-cloudfront-mide/*",
+            "Condition": {
+                "StringEquals": {
+                    "AWS:SourceArn": "arn:aws:cloudfront::058264276076:distribution/E2LL851ED9SCNW"
+                }
+            }
+        }
+    ]
+}
+```
+![aws-30](https://github.com/Ham12-3/AWS-Hands-on-1/assets/93613316/47273abb-efda-4a02-a4d8-0d25157e45e8)
+
+
